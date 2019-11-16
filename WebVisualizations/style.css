@@ -1,0 +1,43 @@
+* Body */
+	body{
+	    background-color: aqua;
+	}
+	/* Navbar */
+	
+	.navbar{
+	    max-height: 57px;
+	}
+	.navigation .navbar-brand{
+	    color:black;
+	    margin-left: 30px;
+	    padding: inherit;
+	    font-weight: bold;
+	    background-color:grey;
+	    font-family: Georgia, 'Tahoma', Times, serif;
+	}
+    .navbar{
+	    background-color:whitesmoke;
+	    font-size: 15px;
+    }
+    .active, .dropdown-menu .dropdown-item:active a:hover{
+
+	    background-color:whitesmoke!important;
+    }
+    .dropdown-item{
+	    color: gray !important;
+	}
+	.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+	    background-color:gray !important;
+	}
+	a{
+	    color: grey;
+	    font-size: 15px;
+	}
+	.nav-link:hover{
+	    background-color:aqua!important;
+	   }
+	.navbar-brand:hover{
+	color: lightskyblue !important;
+	}
+
+	
