@@ -1,6 +1,6 @@
-* Body */
+/* Body */
 	body{
-	    background-color: aqua;
+	    background-color:whitesmoke;
 	}
 	/* Navbar */
 	
@@ -37,42 +37,54 @@
 	    background-color:aqua!important;
 	   }
 	.navbar-brand:hover{
-	color: lightskyblue !important;
+	   color: lightskyblue !important;
 	}
 	./* Images */
-img{
-    width:100% !important;
-    height:100% !important;
-}
-.active, .panel:hover{
-    border-color:#0BADA6;
-    border-style: solid; 
-    
-}
-.vizualizations{
-    width:50% !important;
-    height:50% !important;
-}
+    img{
+     width:100% !important;
+     height:100% !important;
+    }
+    .vizualizations{
+     width:50% !important;
+     height:50% !important;
+    }
+    h2{
+	 color: #0BADA6;  
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder; 
+	 padding-top: 25px;
+    }   
 
 /* Title Class  */
-.title{
-    color: #0BADA6;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder; 
-    padding-top: 25px; 
-}
+    .title{
+     color: #0BADA6;  
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder; 
+     padding-top: 25px; 
+    }
 /* Paragraph Element */
-p{
- color: #6D8092;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 17px; 
-}
+    p{
+ 	 color: #6D8092;
+ 	 font-family: Arial, Helvetica, sans-serif;
+ 	 font-size: 17px; 
+    }
 /* Box Class */
-.box {
-    margin-top: 60px; 
-    margin-bottom: 62px; 
-    padding: 10px 20px 15px; 
-    color:black;
-    background-color: white; 
+	.box {
+     margin-top: 60px; 
+	 margin-bottom: 62px;
+     padding: 10px 20px 15px; 
+     color:black;
+     background-color: white; 
+	}
+	.box:hover{
+	 border-color:#0BADA6;
+	 border-style: solid; 
+	 background-color: white
+	}
+	.text-center{
+	 color: #0BADA6;  
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bolder; 
+     padding-top: 25px; 
 
-  }
+	}
